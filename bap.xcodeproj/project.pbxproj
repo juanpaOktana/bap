@@ -8,14 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		6CBB77B31D9D7FB30017C876 /* bap.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CBB77B21D9D7FB30017C876 /* bap.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6CBB77BB1D9D7FFF0017C876 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBB77BA1D9D7FFF0017C876 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6CBB77AF1D9D7FB30017C876 /* bap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = bap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CBB77B21D9D7FB30017C876 /* bap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bap.h; sourceTree = "<group>"; };
 		6CBB77B41D9D7FB30017C876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6CBB77BA1D9D7FFF0017C876 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +48,6 @@
 			children = (
 				6CBB77B21D9D7FB30017C876 /* bap.h */,
 				6CBB77B41D9D7FB30017C876 /* Info.plist */,
-				6CBB77BA1D9D7FFF0017C876 /* File.swift */,
 			);
 			path = bap;
 			sourceTree = "<group>";
@@ -133,7 +130,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CBB77BB1D9D7FFF0017C876 /* File.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +283,7 @@
 				6CBB77B91D9D7FB30017C876 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
